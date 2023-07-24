@@ -1,0 +1,58 @@
+
+ *{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+.container-fluid{
+    display:flex;
+}
+.set{
+    background-image: linear-gradient(135deg, #43CBFF 10%, #9708CC 100%);;
+}
+
+
+.sidebar{
+    background: #000;
+    color: #fff;
+    height: 1000px;
+    width: 200px;
+    transition: all 0.5s;
+}
+.top_section{
+    display: flex;
+    align-items:center;
+    padding:20px 15px;
+}
+.logo{
+    font-size: 30px;
+}
+.bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.link{
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
+.link:hover{
+    background:lightskyblue;
+    color: #000;
+    transition: all 0.5s;
+}
+.active{
+    background: lightskyblue;
+    color: #000;
+}
+.icon, .link_text{
+    font-size: 20px;
+}
+
+
+h3{text-align: center;}
+
+
